@@ -372,6 +372,10 @@ get_host_triple() {
             _ostype=pc-windows-gnu
             ;;
 
+	Haiku*)
+            _ostype=unknown-haiku
+            ;;
+
 	*)
 	    err "unknown value from uname -s: $uname_value"
 	    ;;
