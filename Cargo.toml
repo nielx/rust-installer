@@ -9,6 +9,7 @@ name = "rust-installer"
 path = "src/main.rs"
 
 [dependencies]
+backtrace = { git = "https://github.com/nielx/backtrace-rs", branch = "haiku-0.3.7" }
 error-chain = "0.10.0"
 flate2 = "0.2.19"
 tar = "0.4.13"
